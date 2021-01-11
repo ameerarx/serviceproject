@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Libre+Baskerville&display=swap');
+
+*{
+    font-family: 'Bitter', serif;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+
+.general{
+    margin-top: 80px;
+    height: 500px;
+    
+}
+
+.search{
+    padding: 10px;
+    border-radius: 50px;
+    border: transparent;
+    width: 300px;
+}
+
+.but{
+    margin-right: 20px;
+    width: 50px;
+}
+
+.categories{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.man{
+    padding: 40px;
+}
+
+.woman{
+    padding: 40px;
+}
+
+
+img{
+    max-width: 200px;
+    max-height: 100px;
+}
+
+.categ{
+    text-align: center;
+    
+}
+
+.categ:hover{
+    border-radius: 5px;
+    border: 1px solid rgb(76, 175, 175);
+}
+
+.categ a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.884);
+}
+
+.categ a:hover{
+    text-decoration: none;
+    color: rgb(76, 175, 175);
+}
+
+.hero{
+   
+    background-repeat: no-repeat;
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%;
+    background-size: 100%; 
+}
+.heroman{
+    background-image: url(./man.jpg);
+}
+.herowomen{
+    background-image: url(./woman.jpg);
+}
